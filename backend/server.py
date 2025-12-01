@@ -55,8 +55,8 @@ class OverviewMetrics(BaseModel):
     overall_engagement_score: int
     strengths_count: int
     critical_areas_count: int
-    top_3_strengths: List[Dict[str, any]]
-    top_3_concerns: List[Dict[str, any]]
+    top_3_strengths: List[Dict[str, Any]]
+    top_3_concerns: List[Dict[str, Any]]
 
 class CoachingGuide(BaseModel):
     category: str
